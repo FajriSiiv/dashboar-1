@@ -23,9 +23,9 @@ const Personal = () => {
 
   return (
     <Content name="Personal Tabel">
-      <div className="flex justify-end">
+      {/* <div className="flex justify-end">
         <ButtonAdd text="Tambah User" link={`/personal/adduser`} />
-      </div>
+      </div> */}
       {data && <Tabel data={data} columns={columns} loading={loading} />}
     </Content>
   );
